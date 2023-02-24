@@ -5,7 +5,7 @@ A project for a example e-commerce website: https://bookcart.azurewebsites.net/ 
 ## Installation
 
 1. Clone the repository:
-    git clone <repository URL>
+    git clone https://github.com/elhispanopolako/bookCartCypress.git
 
 2. Install dependencies:
    npm install
