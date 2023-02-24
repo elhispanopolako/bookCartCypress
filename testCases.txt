@@ -1,0 +1,22 @@
+Registration Feature:
+
+RF1.Verify that a user can register with valid credentials (e.g. username, email address, password, etc.).
+RF2.Verify that the website displays an error message if the user attempts to register with an email address or username that is already in use.
+RF3.Verify that the website requires the user to confirm their password and displays an error message if the passwords do not match.
+RF4.Verify that the website enforces password complexity requirements (e.g. minimum length, use of special characters, etc.).
+
+Login Feature:
+
+LF1.Verify that a registered user can log in with valid credentials (e.g. username and password).
+LF2.Verify requirements of username and password
+LF3.Verify that the website displays an error message if the user enters an invalid username 
+LF4.Verify that the website displays an error message if the user enters an invalid password
+
+Categories Feature
+
+CF1. Verify all categories contain a all books 
+CF2. Verify biography category contain a biography book 
+CF3. Verify Fiction category contain a Fiction book 
+CF4. Verify mystery category contain a mystery book 
+CF5. Verify fantasy category contain a fantasy book 
+CF6. Verify romance category contain a romance book 

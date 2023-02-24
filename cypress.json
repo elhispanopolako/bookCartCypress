@@ -1,0 +1,4 @@
+{
+    "baseUrl": "https://bookcart.azurewebsites.net/",
+    "APIUrl": "https://bookcart.azurewebsites.net/api"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "bookcartcypress",
+  "version": "1.0.0",
+  "description": "demo tests with cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "keywords": [
+    "cypress",
+    "e2e",
+    "api"
+  ],
+  "author": "elhispanopolako",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.7.0"
+  }
+}
