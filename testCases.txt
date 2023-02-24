@@ -4,6 +4,7 @@ RF1.Verify that a user can register with valid credentials (e.g. username, email
 RF2.Verify that the website displays an error message if the user attempts to register with an email address or username that is already in use.
 RF3.Verify that the website requires the user to confirm their password and displays an error message if the passwords do not match.
 RF4.Verify that the website enforces password complexity requirements (e.g. minimum length, use of special characters, etc.).
+RF5.Verify that a user can register via API
 
 Login Feature:
 
