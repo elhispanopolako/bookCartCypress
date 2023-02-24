@@ -1,6 +1,7 @@
-# BOOK CART CYPRESS
+# BookCart E-commerce Website Testing
 
-A project for a example e-commerce website: https://bookcart.azurewebsites.net/  with a few test cases to practice and join to my CV
+BookCart E-commerce Website Testing
+This is a Cypress project for testing an example e-commerce website called BookCart, which can be accessed at https://bookcart.azurewebsites.net/. The purpose of this project is to showcase your skills in writing automated tests for an e-commerce website and to add it to your CV as a demonstrable project.
 
 ## Installation
 
