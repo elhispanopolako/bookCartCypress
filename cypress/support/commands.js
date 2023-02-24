@@ -10,7 +10,16 @@
 //
 //
 // -- This is a parent command --
-// Cypress.Commands.add('login', (email, password) => { ... })
+Cypress.Commands.add('login', (username, password) => {
+    cy.get('#mat-input-0').type(username)
+    cy.get('#mat-input-1').type(password)
+    cy.get('.mat-card-actions > .mat-focus-indicator').click()
+})
+Cypress.Commands.add('loginAfterRegister', (username, password) => {
+    cy.get('#mat-input-5').type(username)
+    cy.get('#mat-input-6').type(password)
+    cy.get('.mat-card-actions > .mat-focus-indicator').click()
+})
 //
 //
 // -- This is a child command --
