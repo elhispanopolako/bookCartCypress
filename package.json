@@ -6,6 +6,7 @@
   "scripts": {
     "open": "cypress open",
     "scripts": "cypress run",
+    "clean:reports": "rm mochawesome.json && rm -r cypress/results/",
     "combine-reports": "mochawesome-merge 'cypress/results/*.json' > mochawesome.json",
     "generate-report": "marge mochawesome.json",
     "posttest": "npm run combine-reports && npm run generate-report",
