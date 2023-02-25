@@ -23,7 +23,7 @@ pipeline {
    }
     post {
          always{
-            publishHTML (target : [allowMissing: false, alwaysLinkToLastBuild: true,keepAll: true,reportDir: 'cypress/mochawesome-report/',reportFiles: 'mochawesome.html',reportName: 'My Reports',reportTitles: 'The Report'])
+            publishHTML (target : [allowMissing: false, alwaysLinkToLastBuild: true,keepAll: true,reportDir: '/mochawesome-report/',reportFiles: 'mochawesome.html',reportName: 'My Reports',reportTitles: 'The Report'])
         }
       } 
 }
