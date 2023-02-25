@@ -4,8 +4,12 @@
   "description": "demo tests with cypress",
   "main": "index.js",
   "scripts": {
-    "test": "cypress open",
-    "run": "cypress run"
+    "open": "cypress open",
+    "scripts": "cypress run",
+    "combine-reports": "mochawesome-merge 'cypress/results/*.json' > mochawesome.json",
+    "generate-report": "marge mochawesome.json",
+    "posttest": "npm run combine-reports && npm run generate-report",
+    "test": "npm run scripts || npm run posttest"
   },
   "keywords": [
     "cypress",
@@ -16,6 +20,9 @@
   "license": "ISC",
   "devDependencies": {
     "@faker-js/faker": "^7.6.0",
-    "cypress": "^9.7.0"
+    "cypress": "^9.7.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.2.2",
+    "mochawesome-report-generator": "^4.1.0"
   }
 }

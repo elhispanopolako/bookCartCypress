@@ -15,9 +15,8 @@ LF4.Verify that the website displays an error message if the user enters an inva
 
 Categories Feature
 
-CF1. Verify all categories contain a all books 
-CF2. Verify biography category contain a biography book 
-CF3. Verify Fiction category contain a Fiction book 
-CF4. Verify mystery category contain a mystery book 
-CF5. Verify fantasy category contain a fantasy book 
-CF6. Verify romance category contain a romance book 
+CF1. Verify biography category contain a biography book 
+CF2. Verify Fiction category contain a Fiction book 
+CF3. Verify mystery category contain a mystery book 
+CF4. Verify fantasy category contain a fantasy book 
+CF5. Verify romance category contain a romance book 
