@@ -1,7 +1,7 @@
 # BookCart E-commerce Website Testing
 
 BookCart E-commerce Website Testing
-This is a Cypress project for testing an example e-commerce website called BookCart, which can be accessed at https://bookcart.azurewebsites.net/. The purpose of this project is to showcase your skills in writing automated tests for an e-commerce website and to add it to your CV as a demonstrable project.
+This is a Cypress project for testing an example e-commerce website called BookCart, which can be accessed at https://bookcart.azurewebsites.net/. The purpose of this project is to showcase my skills in writing automated tests for an e-commerce website and to add it to my CV as a demonstrable project.
 
 ## Installation
 
@@ -15,11 +15,12 @@ This is a Cypress project for testing an example e-commerce website called BookC
 ## Usage
 
 To run Cypress in interactive mode:
-npm run cy:open
+npm run open
 
 
 To run Cypress headlessly:
-npm run cy:run
+npm scripts 
+npm run test
 
 By default, Cypress runs in headless mode on the Electron browser. To run tests on other browsers, set the `BROWSER` environment variable to the desired browser name (e.g. `chrome` or `firefox`).
 
