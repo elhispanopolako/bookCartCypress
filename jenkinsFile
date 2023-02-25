@@ -12,15 +12,20 @@ pipeline {
 
     stage('Run Cypress Tests') {
       steps {
-        sh 'npm test'
+        sh 'npm scripts'
       }
-      post {
+    }
+    stage('Generate report'){
+        steps{
+          sh 'npm posttest'
+        }
+    }
+   }
+    post {
          always{
             publishHTML (target : [allowMissing: false, alwaysLinkToLastBuild: true,keepAll: true,reportDir: 'cypress/mochawesome-report/',reportFiles: 'mochawesome.html',reportName: 'My Reports',reportTitles: 'The Report'])
         }
-      }
-    }
-  }
+      } 
 }
 
 
