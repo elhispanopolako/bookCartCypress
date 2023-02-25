@@ -6,18 +6,18 @@ pipeline {
   stages {
     stage('Install Dependencies') {
       steps {
-        sh 'npm install'
+        bat 'npm install'
       }
     }
 
     stage('Run Cypress Tests') {
       steps {
-        sh 'npm scripts'
+        bat 'npm scripts'
       }
     }
     stage('Generate report'){
         steps{
-          sh 'npm posttest'
+          bat 'npm posttest'
         }
     }
    }
