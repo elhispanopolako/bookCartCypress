@@ -11,15 +11,10 @@ pipeline {
       }
     }
 
-    stage('Run Cypress Tests') {
+    stage('Run Cypress Tests and generate report') {
       steps {
-        bat 'npm run scripts'
+        bat 'npm run test'
       }
-    }
-    stage('Generate report'){
-        steps{
-          bat 'npm run posttest'
-        }
     }
    }
     post {
