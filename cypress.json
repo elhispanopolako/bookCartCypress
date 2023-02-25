@@ -2,5 +2,12 @@
     "baseUrl": "https://bookcart.azurewebsites.net/",
     "APIUrl": "https://bookcart.azurewebsites.net/api",
     "viewportWidth": 1280,
-    "viewportHeight": 720
+    "viewportHeight": 720,
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": false,
+        "json": true
+    }
 }

@@ -8,7 +8,7 @@ const categories = [
 ]
 
 
-describe('Login page', () => {
+describe('Categories page', () => {
     beforeEach(() => {
         cy.visit('/')
     })
