@@ -6,6 +6,7 @@ pipeline {
   stages {
     stage('Install Dependencies') {
       steps {
+        bat 'npm run clean:reportsWindows'
         bat 'npm install'
       }
     }
@@ -18,7 +19,6 @@ pipeline {
     stage('Generate report'){
         steps{
           bat 'npm run posttest'
-          bat 'npm run clean:reports'
         }
     }
    }
